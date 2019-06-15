@@ -12,7 +12,6 @@
 		54552CADAA2679CA09DE5A69A2C9F628 /* Pods-Cut2itAVLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C1447CF4F4AF0F8540FE7BB005EF62 /* Pods-Cut2itAVLibrary_Tests-dummy.m */; };
 		56FD7A58DA13D4360D5ED6FD28DCFC23 /* Pods-Cut2itAVLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 218BCAF6E602C42268912B2C09F75AFE /* Pods-Cut2itAVLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BBFE4EE2060350ECBF69ED121003615 /* Cut2itAVLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E088A3849E97925D6796E3C00F1C9A /* Cut2itAVLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8379C559D745A87522855E49C5572AF9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39ABB33350A9FEDA39FCE294514CB99 /* ReplaceMe.swift */; };
 		91722F5584D16BEF169F147F15FD78F3 /* Pods-Cut2itAVLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FA4894990E0D0A2F705BFDEF4A95B9 /* Pods-Cut2itAVLibrary_Example-dummy.m */; };
 		BFC2EE8D22B4F059003ED42F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC2EE8C22B4F059003ED42F /* AppDelegate.swift */; };
 		C656AAF3892184301DC33A06410E4623 /* Cut2itAVLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D46C9F78145AB7347760AF5A9BA2D1DB /* Cut2itAVLibrary-dummy.m */; };
@@ -58,7 +57,6 @@
 		96E088A3849E97925D6796E3C00F1C9A /* Cut2itAVLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cut2itAVLibrary-umbrella.h"; sourceTree = "<group>"; };
 		97FA4894990E0D0A2F705BFDEF4A95B9 /* Pods-Cut2itAVLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cut2itAVLibrary_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A39ABB33350A9FEDA39FCE294514CB99 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Cut2itAVLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		A46F3FBA233855CDD4305681228F766E /* Pods-Cut2itAVLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cut2itAVLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
 		BFC2EE8C22B4F059003ED42F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5F9BB4D56F619E3C51570AC630653E3 /* Cut2itAVLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cut2itAVLibrary.modulemap; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 		889500811C750DD92844F22D629BFC54 /* Cut2itAVLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				A39ABB33350A9FEDA39FCE294514CB99 /* ReplaceMe.swift */,
 				BFC2EE8C22B4F059003ED42F /* AppDelegate.swift */,
 				071B2F11BAB991C0084D47A95D1B82D0 /* Pod */,
 				FAAA3218F918EC5B185FC2B5F80F380B /* Support Files */,
@@ -369,7 +366,6 @@
 			files = (
 				BFC2EE8D22B4F059003ED42F /* AppDelegate.swift in Sources */,
 				C656AAF3892184301DC33A06410E4623 /* Cut2itAVLibrary-dummy.m in Sources */,
-				8379C559D745A87522855E49C5572AF9 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
