@@ -1,0 +1,6 @@
+framework module Cut2itAVLibrary {
+  umbrella header "Cut2itAVLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

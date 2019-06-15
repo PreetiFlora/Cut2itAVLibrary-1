@@ -1,0 +1,16 @@
+PODS:
+  - Cut2itAVLibrary (0.1.0)
+
+DEPENDENCIES:
+  - Cut2itAVLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  Cut2itAVLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Cut2itAVLibrary: 0cbd7362b998da69fee96ffce9020f62d5ddc787
+
+PODFILE CHECKSUM: 66c36608806aa3a6b095cda75d93df5997395394
+
+COCOAPODS: 1.7.2

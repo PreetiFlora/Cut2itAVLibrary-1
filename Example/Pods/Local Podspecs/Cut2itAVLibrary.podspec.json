@@ -1,0 +1,22 @@
+{
+  "name": "Cut2itAVLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of Cut2itAVLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sikkabarkha@gmail.com/Cut2itAVLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sikkabarkha@gmail.com": "sikkabarkha@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sikkabarkha@gmail.com/Cut2itAVLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Cut2itAVLibrary/Classes/**/*"
+}
