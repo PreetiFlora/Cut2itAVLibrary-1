@@ -10,7 +10,7 @@ import UIKit
 import AVFoundation
 import AVKit
 
-class AVCommunication: UIView,UIGestureRecognizerDelegate{
+public class AVCommunication: UIView,UIGestureRecognizerDelegate{
 
         var avplayer : AVPlayer?
         var avplayerlayer:AVPlayerLayer?
@@ -86,7 +86,7 @@ class AVCommunication: UIView,UIGestureRecognizerDelegate{
         return avplayerlayer!
     }
 
-    func play(){
+   public func play(){
         avplayer?.play()
 		videoActionButtonView.playButton.setImage(UIImage(named: "Pause.png"), for: .normal)
     }
