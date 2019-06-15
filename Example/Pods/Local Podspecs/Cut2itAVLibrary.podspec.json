@@ -1,9 +1,9 @@
 {
   "name": "Cut2itAVLibrary",
   "version": "0.1.0",
-  "summary": "A short description of Cut2itAVLibrary.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sikkabarkha@gmail.com/Cut2itAVLibrary",
+  "summary": "Cut2itAVLibrary to manipulate audio and video.",
+  "description": "'Cut2itAVLibrary to manipulate audio and video'",
+  "homepage": "https://github.com/barkhasikka/Cut2itAVLibrary.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,13 @@
     "sikkabarkha@gmail.com": "sikkabarkha@gmail.com"
   },
   "source": {
-    "git": "https://github.com/sikkabarkha@gmail.com/Cut2itAVLibrary.git",
+    "git": "https://github.com/barkhasikka/Cut2itAVLibrary.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "Cut2itAVLibrary/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "Cut2itAVLibrary/Classes/**/*",
+  "swift_version": "5.0"
 }
