@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Cut2itAVLibrary_Example' do
+  pod 'Cut2itAVLibrary', :path => '../'
+
+  target 'Cut2itAVLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
