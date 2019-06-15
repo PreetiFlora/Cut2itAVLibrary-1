@@ -8,22 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		00FE76D136B97CEE733DC9DC711993DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		044C87C8A40B39062A7097567D704950 /* SeekBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548860B5CD8662A5D4D7D7F55A53A3F5 /* SeekBar.swift */; };
-		04A3F1B0C9F995969A19742CA9A54D7D /* LaunchScreen.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 1CE30681E20574853DC3E508C254A1EF /* LaunchScreen.storyboard */; };
-		1A1762F1E6DFA73D98BA009226C1FFC2 /* Cut2itAVLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C75436DFC3195A03273E427A4AC91 /* Cut2itAVLibrary-dummy.m */; };
+		01F34AE42CF60D6B478E1182F6000F4F /* AVCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C2E43BF117E195B52604456DA3E0AD /* AVCommunication.swift */; };
+		1DFED02F1E05FF75C57724FA73B53EDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3ABD7BC6F09AD9CDC58D83EB6C4D9D8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3E8FC6890FE24B9015867F347EE61263 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = B330058A71D6939EDB600EE0C9A5D030 /* Main.storyboard */; };
+		3DFDF7808254D1C019E2494CE8D74C13 /* ActivityIndicatorAndReplayButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373474D4E5F4FA38C5B6D77A7DC04782 /* ActivityIndicatorAndReplayButtonView.swift */; };
 		54552CADAA2679CA09DE5A69A2C9F628 /* Pods-Cut2itAVLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C1447CF4F4AF0F8540FE7BB005EF62 /* Pods-Cut2itAVLibrary_Tests-dummy.m */; };
 		56FD7A58DA13D4360D5ED6FD28DCFC23 /* Pods-Cut2itAVLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 218BCAF6E602C42268912B2C09F75AFE /* Pods-Cut2itAVLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A4CED92950D88470A04D7AAA411F5DB /* ActivityIndicatorAndReplayButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFCBF361F1E39F3CC426BE19E21350 /* ActivityIndicatorAndReplayButtonView.swift */; };
-		7D71D78842521CD55FC094EA1BCF68D2 /* Cut2itAVLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F456F68A4D89711212FFC8BC6072661F /* Cut2itAVLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BC6867C164A2EC47571838996A9790C /* Cut2itAVLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6DF8FD10DAF12A075A3EF1BCD35A55 /* Cut2itAVLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91722F5584D16BEF169F147F15FD78F3 /* Pods-Cut2itAVLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FA4894990E0D0A2F705BFDEF4A95B9 /* Pods-Cut2itAVLibrary_Example-dummy.m */; };
-		B39F1B72DFFB311BE348C76274CAB35F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B6FC087A9674105633C5E9F82E886335 /* VideoActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60628E1F996A70779A8C4CB6E2B9E12 /* VideoActionButtonView.swift */; };
-		D5A8EBAE909929FB3DABFB33E9B4B03F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C69572BF1AD1D79B61E797A2DFDA9 /* AppDelegate.swift */; };
+		A00E332C2407F9BE683DB461A7D6D026 /* SeekBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAEC1579D653D28EC9293A3D4EBE216 /* SeekBar.swift */; };
+		A10B20273CCF7DBEB685C57DD4578062 /* Cut2itAVLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FCC8F10013A26B75DFAC1504A1E547 /* Cut2itAVLibrary-dummy.m */; };
+		CE421587F507CC662E30BBD31074BA45 /* VideoActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA2BE25A592E35AE693B07F549FEB64 /* VideoActionButtonView.swift */; };
 		ECF55961160B2D86CDDA736B6871AC59 /* Pods-Cut2itAVLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4353E961EB8F42F11D67B516FB28109C /* Pods-Cut2itAVLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F308385ED703A15D1225B7A8C47E1C44 /* AVCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90D029AC294BCBBDADBA71C544BA2E /* AVCommunication.swift */; };
-		F429CA6D06D5DEC13FD8DF2A7CD8EC1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFBDAB439523B3AEB8EC567007EE588 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,43 +40,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0098BBF0750C18DFE30A228F659018C7 /* Cut2itAVLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cut2itAVLibrary-prefix.pch"; sourceTree = "<group>"; };
 		07C1447CF4F4AF0F8540FE7BB005EF62 /* Pods-Cut2itAVLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cut2itAVLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
-		092D445C12B5318119D909C9DDDE63E2 /* Pods_Cut2itAVLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cut2itAVLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		092D445C12B5318119D909C9DDDE63E2 /* Pods_Cut2itAVLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cut2itAVLibrary_Example.framework; path = "Pods-Cut2itAVLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		093596367C30D3535A61962B3370C454 /* Cut2itAVLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Cut2itAVLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		094D43B9D8BFA4ED456D78D792F2C95F /* Pods-Cut2itAVLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cut2itAVLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0B6167A4398F381B8A3BF4FB7028E619 /* Pods-Cut2itAVLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cut2itAVLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D6DF8FD10DAF12A075A3EF1BCD35A55 /* Cut2itAVLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cut2itAVLibrary-umbrella.h"; sourceTree = "<group>"; };
+		13A1EE6734F05C842545D15C40B84AEF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1998F1E8DD0F669C3AB8A799F376530D /* Pods-Cut2itAVLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cut2itAVLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1CE30681E20574853DC3E508C254A1EF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		218BCAF6E602C42268912B2C09F75AFE /* Pods-Cut2itAVLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cut2itAVLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3140C739424EA8973C407336E7D19E51 /* Cut2itAVLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cut2itAVLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3140C739424EA8973C407336E7D19E51 /* Cut2itAVLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cut2itAVLibrary.framework; path = Cut2itAVLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		328BD1DBB04B1665D41BADC145FE3E06 /* Cut2itAVLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cut2itAVLibrary.modulemap; sourceTree = "<group>"; };
+		373474D4E5F4FA38C5B6D77A7DC04782 /* ActivityIndicatorAndReplayButtonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAndReplayButtonView.swift; path = Cut2itAVLibrary/Classes/AVCommunication/AVCommunicationLibrary/ActivityIndicatorAndReplayButtonView.swift; sourceTree = "<group>"; };
 		3D33B781EB194FF170C754694416F99A /* Pods-Cut2itAVLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cut2itAVLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4353E961EB8F42F11D67B516FB28109C /* Pods-Cut2itAVLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cut2itAVLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
-		548860B5CD8662A5D4D7D7F55A53A3F5 /* SeekBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SeekBar.swift; sourceTree = "<group>"; };
-		5C90D029AC294BCBBDADBA71C544BA2E /* AVCommunication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AVCommunication.swift; sourceTree = "<group>"; };
-		5E76BB18C8EA351467830DDAAD897DE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4687AE313FBB5F2E95764F83D2768E23 /* Cut2itAVLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cut2itAVLibrary.modulemap; sourceTree = "<group>"; };
+		4CA2BE25A592E35AE693B07F549FEB64 /* VideoActionButtonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoActionButtonView.swift; path = Cut2itAVLibrary/Classes/AVCommunication/AVCommunicationLibrary/VideoActionButtonView.swift; sourceTree = "<group>"; };
+		4EAEC1579D653D28EC9293A3D4EBE216 /* SeekBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SeekBar.swift; path = Cut2itAVLibrary/Classes/AVCommunication/AVCommunicationLibrary/SeekBar.swift; sourceTree = "<group>"; };
+		566A63F98A34C08AB9803A5AEF2C1F59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		65C2E43BF117E195B52604456DA3E0AD /* AVCommunication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AVCommunication.swift; path = Cut2itAVLibrary/Classes/AVCommunication/AVCommunicationLibrary/AVCommunication.swift; sourceTree = "<group>"; };
+		788C69190FD051BA8BEF7A903FF64DB7 /* Cut2itAVLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cut2itAVLibrary-Info.plist"; sourceTree = "<group>"; };
+		79FCC8F10013A26B75DFAC1504A1E547 /* Cut2itAVLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cut2itAVLibrary-dummy.m"; sourceTree = "<group>"; };
 		7ADF67AF8F170E274D3E4C094E05FB1A /* Pods-Cut2itAVLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cut2itAVLibrary_Example-Info.plist"; sourceTree = "<group>"; };
-		855C75436DFC3195A03273E427A4AC91 /* Cut2itAVLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cut2itAVLibrary-dummy.m"; sourceTree = "<group>"; };
 		889FA61945FBBC12A3BB0ADC5AEE9B81 /* Pods-Cut2itAVLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cut2itAVLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8AF747A3E961DA4C27697DA49E40F6C4 /* Pods-Cut2itAVLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cut2itAVLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		97FA4894990E0D0A2F705BFDEF4A95B9 /* Pods-Cut2itAVLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cut2itAVLibrary_Example-dummy.m"; sourceTree = "<group>"; };
-		9A1C69572BF1AD1D79B61E797A2DFDA9 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Cut2itAVLibrary/Classes/AVCommunication/AppDelegate.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A46F3FBA233855CDD4305681228F766E /* Pods-Cut2itAVLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cut2itAVLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
-		A60628E1F996A70779A8C4CB6E2B9E12 /* VideoActionButtonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoActionButtonView.swift; sourceTree = "<group>"; };
-		AFAFCBF361F1E39F3CC426BE19E21350 /* ActivityIndicatorAndReplayButtonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAndReplayButtonView.swift; sourceTree = "<group>"; };
-		B330058A71D6939EDB600EE0C9A5D030 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B9F6DC64A9CB243A276DA42550D54FD9 /* Cut2itAVLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Cut2itAVLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C688E435800C2FE21FDF2923DEF1B5BD /* Cut2itAVLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cut2itAVLibrary.xcconfig; sourceTree = "<group>"; };
 		C780AAB6D54483006718B15544ED736B /* Pods-Cut2itAVLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cut2itAVLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		CCA9D07808BD2F8BD7281320FF9B86CA /* Pods-Cut2itAVLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cut2itAVLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D9547BD8BFB169EE14C425336BCD9E8D /* Cut2itAVLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cut2itAVLibrary-prefix.pch"; sourceTree = "<group>"; };
-		DDFBDAB439523B3AEB8EC567007EE588 /* ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Cut2itAVLibrary/Classes/AVCommunication/ViewController.swift; sourceTree = "<group>"; };
-		EE018AF3D878270B74FCB5D265CAB00D /* Pods_Cut2itAVLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cut2itAVLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF2A4CCFA1561C61CA110E7C2DE203EF /* Cut2itAVLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cut2itAVLibrary-Info.plist"; sourceTree = "<group>"; };
+		EE018AF3D878270B74FCB5D265CAB00D /* Pods_Cut2itAVLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cut2itAVLibrary_Tests.framework; path = "Pods-Cut2itAVLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFFE788A906F01CC33EC4D35EAF3B6EC /* Pods-Cut2itAVLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cut2itAVLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F456F68A4D89711212FFC8BC6072661F /* Cut2itAVLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cut2itAVLibrary-umbrella.h"; sourceTree = "<group>"; };
-		F4BDFFC8C5006BD45C43A27FD47669D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F5A602D7B41E73D137ACDAA1A24C7BD2 /* Cut2itAVLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cut2itAVLibrary.xcconfig; sourceTree = "<group>"; };
 		FA139909B15AD98924D30E238E19840E /* Pods-Cut2itAVLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cut2itAVLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FFEFC4C6AC74E223FA83FA2BC0C54C6A /* Pods-Cut2itAVLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cut2itAVLibrary_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,11 +86,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2277253AACAAB9E13E4040155844822F /* Frameworks */ = {
+		6353D4A8A6D1BD1047FDB125B3FA3BD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B39F1B72DFFB311BE348C76274CAB35F /* Foundation.framework in Frameworks */,
+				1DFED02F1E05FF75C57724FA73B53EDC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,48 +105,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3DE1DF9AD11DC8B23AB971CC4848A16E /* Pod */ = {
+		1D5437C1148E396363EFF7FFC565FE3F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B9F6DC64A9CB243A276DA42550D54FD9 /* Cut2itAVLibrary.podspec */,
-				5E76BB18C8EA351467830DDAAD897DE6 /* LICENSE */,
-				F4BDFFC8C5006BD45C43A27FD47669D1 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		44776123304881D17975181438CD6E76 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A054B31D8ABF23950DC41741CC6400E6 /* Cut2itAVLibrary */,
+				C1A7C0D3BA6791AB8CDC634D23D8F564 /* Cut2itAVLibrary */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		606A556326B5DB5D8CE9030E5036A659 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				328BD1DBB04B1665D41BADC145FE3E06 /* Cut2itAVLibrary.modulemap */,
-				F5A602D7B41E73D137ACDAA1A24C7BD2 /* Cut2itAVLibrary.xcconfig */,
-				855C75436DFC3195A03273E427A4AC91 /* Cut2itAVLibrary-dummy.m */,
-				EF2A4CCFA1561C61CA110E7C2DE203EF /* Cut2itAVLibrary-Info.plist */,
-				D9547BD8BFB169EE14C425336BCD9E8D /* Cut2itAVLibrary-prefix.pch */,
-				F456F68A4D89711212FFC8BC6072661F /* Cut2itAVLibrary-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Cut2itAVLibrary";
-			sourceTree = "<group>";
-		};
-		7B0F08997F544798D16B287BBFFC7C3D /* AVCommunicationLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				AFAFCBF361F1E39F3CC426BE19E21350 /* ActivityIndicatorAndReplayButtonView.swift */,
-				5C90D029AC294BCBBDADBA71C544BA2E /* AVCommunication.swift */,
-				548860B5CD8662A5D4D7D7F55A53A3F5 /* SeekBar.swift */,
-				A60628E1F996A70779A8C4CB6E2B9E12 /* VideoActionButtonView.swift */,
-			);
-			name = AVCommunicationLibrary;
-			path = Cut2itAVLibrary/Classes/AVCommunication/AVCommunicationLibrary;
 			sourceTree = "<group>";
 		};
 		8F370957CCFF85811A36A337D841B154 /* Products */ = {
@@ -165,6 +121,16 @@
 				EE018AF3D878270B74FCB5D265CAB00D /* Pods_Cut2itAVLibrary_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8F6499C74F96F42CEAC57C01A747B36D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				093596367C30D3535A61962B3370C454 /* Cut2itAVLibrary.podspec */,
+				566A63F98A34C08AB9803A5AEF2C1F59 /* LICENSE */,
+				13A1EE6734F05C842545D15C40B84AEF /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		906EF788650F445A6D405B98C797C55C /* Pods-Cut2itAVLibrary_Example */ = {
@@ -184,21 +150,6 @@
 			path = "Target Support Files/Pods-Cut2itAVLibrary_Example";
 			sourceTree = "<group>";
 		};
-		A054B31D8ABF23950DC41741CC6400E6 /* Cut2itAVLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				9A1C69572BF1AD1D79B61E797A2DFDA9 /* AppDelegate.swift */,
-				0685401B49AFDD4580391FE70ADA49E1 /* LaunchScreen.storyboard */,
-				676A70589B3D47782F84EBD232807551 /* Main.storyboard */,
-				DDFBDAB439523B3AEB8EC567007EE588 /* ViewController.swift */,
-				7B0F08997F544798D16B287BBFFC7C3D /* AVCommunicationLibrary */,
-				3DE1DF9AD11DC8B23AB971CC4848A16E /* Pod */,
-				606A556326B5DB5D8CE9030E5036A659 /* Support Files */,
-			);
-			name = Cut2itAVLibrary;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,11 +158,39 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C1A7C0D3BA6791AB8CDC634D23D8F564 /* Cut2itAVLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				373474D4E5F4FA38C5B6D77A7DC04782 /* ActivityIndicatorAndReplayButtonView.swift */,
+				65C2E43BF117E195B52604456DA3E0AD /* AVCommunication.swift */,
+				4EAEC1579D653D28EC9293A3D4EBE216 /* SeekBar.swift */,
+				4CA2BE25A592E35AE693B07F549FEB64 /* VideoActionButtonView.swift */,
+				8F6499C74F96F42CEAC57C01A747B36D /* Pod */,
+				C9215523498A2A0D45D442423E4D9E99 /* Support Files */,
+			);
+			name = Cut2itAVLibrary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C9215523498A2A0D45D442423E4D9E99 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4687AE313FBB5F2E95764F83D2768E23 /* Cut2itAVLibrary.modulemap */,
+				C688E435800C2FE21FDF2923DEF1B5BD /* Cut2itAVLibrary.xcconfig */,
+				79FCC8F10013A26B75DFAC1504A1E547 /* Cut2itAVLibrary-dummy.m */,
+				788C69190FD051BA8BEF7A903FF64DB7 /* Cut2itAVLibrary-Info.plist */,
+				0098BBF0750C18DFE30A228F659018C7 /* Cut2itAVLibrary-prefix.pch */,
+				0D6DF8FD10DAF12A075A3EF1BCD35A55 /* Cut2itAVLibrary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Cut2itAVLibrary";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				44776123304881D17975181438CD6E76 /* Development Pods */,
+				1D5437C1148E396363EFF7FFC565FE3F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				8F370957CCFF85811A36A337D841B154 /* Products */,
 				F7FAAAB1B52D148FE9B1744A91E20DCB /* Targets Support Files */,
@@ -254,14 +233,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		44811BE59466C2ED0691151BABBF02CA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7D71D78842521CD55FC094EA1BCF68D2 /* Cut2itAVLibrary-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		47A579C97489DC54241B90D1E48353EB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,17 +249,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7473C4D60AD9C1B326CC5C1B2B2AE10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC6867C164A2EC47571838996A9790C /* Cut2itAVLibrary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		30918663128EE11871DED6FE26A0A098 /* Cut2itAVLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6555783CBAD9C9D37FB82CD277934E2 /* Build configuration list for PBXNativeTarget "Cut2itAVLibrary" */;
+			buildConfigurationList = 2FB258590119BCBB800FC7C436580565 /* Build configuration list for PBXNativeTarget "Cut2itAVLibrary" */;
 			buildPhases = (
-				44811BE59466C2ED0691151BABBF02CA /* Headers */,
-				76F26B10279AA0CAE745AE8F5E2AADDF /* Sources */,
-				2277253AACAAB9E13E4040155844822F /* Frameworks */,
-				44D6D52952AE2BD5672C987D0A54D835 /* Resources */,
+				F7473C4D60AD9C1B326CC5C1B2B2AE10 /* Headers */,
+				86C698A2110DDE21C6837C1D71FD3AA7 /* Sources */,
+				6353D4A8A6D1BD1047FDB125B3FA3BD1 /* Frameworks */,
+				A41F2E731B1F5B1C9448ADE43C13596E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -352,7 +331,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 8F370957CCFF85811A36A337D841B154 /* Products */;
@@ -374,14 +352,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		44D6D52952AE2BD5672C987D0A54D835 /* Resources */ = {
+		868D4989D6CD4F585D6B351DE68D0BC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		868D4989D6CD4F585D6B351DE68D0BC8 /* Resources */ = {
+		A41F2E731B1F5B1C9448ADE43C13596E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -399,27 +377,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76F26B10279AA0CAE745AE8F5E2AADDF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A4CED92950D88470A04D7AAA411F5DB /* ActivityIndicatorAndReplayButtonView.swift in Sources */,
-				D5A8EBAE909929FB3DABFB33E9B4B03F /* AppDelegate.swift in Sources */,
-				F308385ED703A15D1225B7A8C47E1C44 /* AVCommunication.swift in Sources */,
-				1A1762F1E6DFA73D98BA009226C1FFC2 /* Cut2itAVLibrary-dummy.m in Sources */,
-				04A3F1B0C9F995969A19742CA9A54D7D /* LaunchScreen.storyboard in Sources */,
-				3E8FC6890FE24B9015867F347EE61263 /* Main.storyboard in Sources */,
-				044C87C8A40B39062A7097567D704950 /* SeekBar.swift in Sources */,
-				B6FC087A9674105633C5E9F82E886335 /* VideoActionButtonView.swift in Sources */,
-				F429CA6D06D5DEC13FD8DF2A7CD8EC1A /* ViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8020A26F62549DCF126C9BF913148086 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				91722F5584D16BEF169F147F15FD78F3 /* Pods-Cut2itAVLibrary_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C698A2110DDE21C6837C1D71FD3AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFDF7808254D1C019E2494CE8D74C13 /* ActivityIndicatorAndReplayButtonView.swift in Sources */,
+				01F34AE42CF60D6B478E1182F6000F4F /* AVCommunication.swift in Sources */,
+				A10B20273CCF7DBEB685C57DD4578062 /* Cut2itAVLibrary-dummy.m in Sources */,
+				A00E332C2407F9BE683DB461A7D6D026 /* SeekBar.swift in Sources */,
+				CE421587F507CC662E30BBD31074BA45 /* VideoActionButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,91 +414,7 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		0685401B49AFDD4580391FE70ADA49E1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CE30681E20574853DC3E508C254A1EF /* LaunchScreen.storyboard */,
-			);
-			name = LaunchScreen.storyboard;
-			path = Cut2itAVLibrary/Classes/AVCommunication;
-			sourceTree = "<group>";
-		};
-		676A70589B3D47782F84EBD232807551 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B330058A71D6939EDB600EE0C9A5D030 /* Main.storyboard */,
-			);
-			name = Main.storyboard;
-			path = Cut2itAVLibrary/Classes/AVCommunication;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		16EC52110996C4B0706A428BD3323B61 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5A602D7B41E73D137ACDAA1A24C7BD2 /* Cut2itAVLibrary.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Cut2itAVLibrary/Cut2itAVLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Cut2itAVLibrary/Cut2itAVLibrary-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Cut2itAVLibrary/Cut2itAVLibrary.modulemap";
-				PRODUCT_MODULE_NAME = Cut2itAVLibrary;
-				PRODUCT_NAME = Cut2itAVLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		36BCDAC5C0D0B02E978B16819FD511CC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5A602D7B41E73D137ACDAA1A24C7BD2 /* Cut2itAVLibrary.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Cut2itAVLibrary/Cut2itAVLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Cut2itAVLibrary/Cut2itAVLibrary-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Cut2itAVLibrary/Cut2itAVLibrary.modulemap";
-				PRODUCT_MODULE_NAME = Cut2itAVLibrary;
-				PRODUCT_NAME = Cut2itAVLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -578,7 +468,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -647,6 +538,38 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		C50CCA5E30F5A1B4ADE258AC907DE813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C688E435800C2FE21FDF2923DEF1B5BD /* Cut2itAVLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cut2itAVLibrary/Cut2itAVLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cut2itAVLibrary/Cut2itAVLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cut2itAVLibrary/Cut2itAVLibrary.modulemap";
+				PRODUCT_MODULE_NAME = Cut2itAVLibrary;
+				PRODUCT_NAME = Cut2itAVLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		C7FE83DE8180D43AEFD0D92DF01D5255 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -749,6 +672,37 @@
 			};
 			name = Release;
 		};
+		D70110447FFEDD8252E6E44B6328F674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C688E435800C2FE21FDF2923DEF1B5BD /* Cut2itAVLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cut2itAVLibrary/Cut2itAVLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cut2itAVLibrary/Cut2itAVLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cut2itAVLibrary/Cut2itAVLibrary.modulemap";
+				PRODUCT_MODULE_NAME = Cut2itAVLibrary;
+				PRODUCT_NAME = Cut2itAVLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		EB49641DED893224B567F9B27AB2B295 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 889FA61945FBBC12A3BB0ADC5AEE9B81 /* Pods-Cut2itAVLibrary_Example.debug.xcconfig */;
@@ -785,6 +739,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2FB258590119BCBB800FC7C436580565 /* Build configuration list for PBXNativeTarget "Cut2itAVLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70110447FFEDD8252E6E44B6328F674 /* Debug */,
+				C50CCA5E30F5A1B4ADE258AC907DE813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3254128D26551390174D639C32DC3AAC /* Build configuration list for PBXNativeTarget "Pods-Cut2itAVLibrary_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -808,15 +771,6 @@
 			buildConfigurations = (
 				EB49641DED893224B567F9B27AB2B295 /* Debug */,
 				CF0A2E16ADCFEEE002EE00C94772FC05 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B6555783CBAD9C9D37FB82CD277934E2 /* Build configuration list for PBXNativeTarget "Cut2itAVLibrary" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				36BCDAC5C0D0B02E978B16819FD511CC /* Debug */,
-				16EC52110996C4B0706A428BD3323B61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
