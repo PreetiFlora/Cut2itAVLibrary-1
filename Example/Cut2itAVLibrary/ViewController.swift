@@ -11,9 +11,21 @@ import Cut2itAVLibrary
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+	@IBOutlet weak var videoUIView: UIView!
+	let av = AVCommunication()
+	override func viewDidLoad() {
         super.viewDidLoad()
-		
+
+		videoUIView.addSubview(av)
+
+		av.translatesAutoresizingMaskIntoConstraints = false
+
+		av.leadingAnchor.constraint(equalTo: self.videoUIView.leadingAnchor).isActive = true
+		av.trailingAnchor.constraint(equalTo: self.videoUIView.trailingAnchor).isActive = true
+		av.bottomAnchor.constraint(equalTo: self.videoUIView.bottomAnchor).isActive = true
+		av.topAnchor.constraint(equalTo: self.videoUIView.topAnchor).isActive = true
+		av.heightAnchor.constraint(equalTo: self.videoUIView.heightAnchor).isActive = true
+		av.play()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -21,6 +33,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
+	override func viewDidLayoutSubviews() {
+		super.viewDidLayoutSubviews()
+		av.avplayerlayer?.frame = av.mediaPlayerUIView.bounds
+	}
 
 }
 
