@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ActivityIndicatorAndReplayButtonView: UIView {
+public class ActivityIndicatorAndReplayButtonView: UIView {
     
     var videoActivityIndicator: UIActivityIndicatorView!
     var replayButton: UIButton!

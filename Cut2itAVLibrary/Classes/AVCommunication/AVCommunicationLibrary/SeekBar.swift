@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SeekBar: UIView {
+public class SeekBar: UIView {
 
     var timeSlider: UISlider!
     var currentTimeLabel: UILabel!

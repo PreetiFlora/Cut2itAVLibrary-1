@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VideoActionButtonView: UIView {
+public class VideoActionButtonView: UIView {
     
     var forwardButton: UIButton!
     var backwardButton: UIButton!
