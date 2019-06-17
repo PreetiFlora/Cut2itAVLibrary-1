@@ -10,21 +10,20 @@ import UIKit
 import AVFoundation
 import AVKit
 
-class AVCommunication: UIView,UIGestureRecognizerDelegate{
+public class AVCommunication: UIView,UIGestureRecognizerDelegate{
 
-        var avplayer : AVPlayer?
-        var avplayerlayer:AVPlayerLayer?
-       	var seekBarUIView: SeekBar!
-       	var mediaPlayerUIView: UIView!
-        var videoActionButtonView : VideoActionButtonView!
-        var tapGesture :UITapGestureRecognizer!
-        var activityIndicatorAndReplayButtonView : ActivityIndicatorAndReplayButtonView!
-		var playbackLikelyToKeepUpKeyPathObserver: NSKeyValueObservation?
-		var playbackBufferEmptyObserver: NSKeyValueObservation?
-		var playbackBufferFullObserver: NSKeyValueObservation?
-
-		var isPlaySegmentCalled: Bool = false
-		var endTimeOfSegment: Int64!
+        public  var avplayer : AVPlayer?
+        public var avplayerlayer:AVPlayerLayer?
+       	public var seekBarUIView: SeekBar!
+       	public var mediaPlayerUIView: UIView!
+        public  var videoActionButtonView : VideoActionButtonView!
+        public var tapGesture :UITapGestureRecognizer!
+        public var activityIndicatorAndReplayButtonView : ActivityIndicatorAndReplayButtonView!
+	public 	var playbackLikelyToKeepUpKeyPathObserver: NSKeyValueObservation?
+	public 	var playbackBufferEmptyObserver: NSKeyValueObservation?
+	public 	var playbackBufferFullObserver: NSKeyValueObservation?
+	public 	var isPlaySegmentCalled: Bool = false
+	public 	var endTimeOfSegment: Int64!
     
     	override init( frame: CGRect){
         
@@ -86,12 +85,12 @@ class AVCommunication: UIView,UIGestureRecognizerDelegate{
         return avplayerlayer!
     }
 
-    func play(){
+    public func play(){
         avplayer?.play()
 		videoActionButtonView.playButton.setImage(UIImage(named: "Pause.png"), for: .normal)
     }
 
-    func pause(){
+   public  func pause(){
         avplayer?.pause()
 		videoActionButtonView.playButton.setImage(UIImage(named: "Play.png"), for: .normal)
     }
